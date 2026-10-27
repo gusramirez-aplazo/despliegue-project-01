@@ -1,0 +1,11 @@
+{
+  "name": "pendientes",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "package": "mkdir -p release && tar -czf release/pendientes-v$npm_package_version.tar.gz -C dist ."
+  }
+}

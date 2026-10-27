@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mis pendientes</title>
+    <link rel="stylesheet" href="/src/css/styles.css" />
+  </head>
+  <body>
+    <main class="card">
+      <img class="cover" src="/src/img/portada.jpg" alt="Lista de pendientes con dos tareas marcadas" />
+      <h1>Mis pendientes</h1>
+      <p class="subtitle">Anota tus tareas escolares y márcalas cuando las termines.</p>
+      <form id="task-form" class="task-form">
+        <input id="task-input" type="text" placeholder="Ej. Entregar el reto 2" required />
+        <button type="submit">Agregar</button>
+      </form>
+      <ul id="task-list" class="task-list"></ul>
+      <p id="task-counter" class="counter"></p>
+    </main>
+    <script type="module" src="/src/js/main.js"></script>
+  </body>
+</html>
