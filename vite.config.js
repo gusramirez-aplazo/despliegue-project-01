@@ -6,6 +6,7 @@ export default defineConfig({
   plugins: [ViteImageOptimizer({ jpg: { quality: 75 } })],
   build: {
     assetsInlineLimit: 0,
+    modulePreload: { polyfill: false },
     rollupOptions: {
       output: {
         entryFileNames: 'js/[name]-[hash].js',
