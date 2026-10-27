@@ -7,5 +7,10 @@
     "dev": "vite",
     "build": "vite build",
     "package": "mkdir -p release && tar -czf release/pendientes-v$npm_package_version.tar.gz -C dist ."
+  },
+  "devDependencies": {
+    "sharp": "^0.35.5",
+    "vite": "^8.3.5",
+    "vite-plugin-image-optimizer": "^2.0.3"
   }
 }
